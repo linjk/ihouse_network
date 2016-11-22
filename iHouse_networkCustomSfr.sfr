@@ -1,0 +1,70 @@
+[Sfr]
+sfr = "GPIOE_MODER",	"Memory",	0x40021000,	4,	base=16,	modified
+sfr = "GPIOE_OSPEEDR",	"Memory",	0x40021008,	4,	base=16,	modified
+sfr = "GPIOF_LCKR",	"Memory",	0x4002141c,	4,	base=16,	modified
+sfr = "GPIOF_AFRH",	"Memory",	0x40021424,	4,	base=16,	modified
+sfr = "GPIOH_OTYPER",	"Memory",	0x40021c04,	4,	base=16,	modified
+sfr = "GPIOH_LCKR",	"Memory",	0x40021c1c,	4,	base=16,	modified
+sfr = "GPIOI_OTYPER",	"Memory",	0x40022004,	4,	base=16,	modified
+sfr = "DMA1_S2CR",	"Memory",	0x40026040,	4,	base=16,	modified
+sfr = "DMA1_S3M0AR",	"Memory",	0x40026064,	4,	base=16,	modified
+sfr = "DMA1_S4M1AR",	"Memory",	0x40026080,	4,	base=16,	modified
+sfr = "DMA1_S5CR",	"Memory",	0x40026088,	4,	base=16,	modified
+sfr = "DMA1_S5PAR",	"Memory",	0x40026090,	4,	base=16,	modified
+sfr = "DMA1_S7NDTR",	"Memory",	0x400260bc,	4,	base=16,	modified
+sfr = "DMA2_S1PAR",	"Memory",	0x40026430,	4,	base=16,	modified
+sfr = "DMA2_S1M0AR",	"Memory",	0x40026434,	4,	base=16,	modified
+sfr = "DMA2_S1M1AR",	"Memory",	0x40026438,	4,	base=16,	modified
+sfr = "DMA2_S1FCR",	"Memory",	0x4002643c,	4,	base=16,	modified
+sfr = "DMA2_S2CR",	"Memory",	0x40026440,	4,	base=16,	modified
+sfr = "DMA2_S2NDTR",	"Memory",	0x40026444,	4,	base=16,	modified
+sfr = "DMA2_S2PAR",	"Memory",	0x40026448,	4,	base=16,	modified
+sfr = "DMA2_S2M0AR",	"Memory",	0x4002644c,	4,	base=16,	modified
+sfr = "DMA2_S5CR",	"Memory",	0x40026488,	4,	base=16,	modified
+sfr = "DMA2_S5PAR",	"Memory",	0x40026490,	4,	base=16,	modified
+sfr = "DMA2_S7CR",	"Memory",	0x400264b8,	4,	base=16,	modified
+sfr = "DMA2_S7M0AR",	"Memory",	0x400264c4,	4,	base=16,	modified
+sfr = "DMA2_S7FCR",	"Memory",	0x400264cc,	4,	base=16,	modified
+sfr = "RTC_CALIBR",	"Memory",	0x40002818,	4,	base=16,	modified
+sfr = "RTC_ALRMBR",	"Memory",	0x40002820,	4,	base=16,	modified
+sfr = "RTC_CALR",	"Memory",	0x4000283c,	4,	base=16,	modified
+sfr = "RTC_ALRMBSSR",	"Memory",	0x40002848,	4,	base=16,	modified
+sfr = "RTC_BK0R",	"Memory",	0x40002850,	4,	base=16,	modified
+sfr = "RTC_BK1R",	"Memory",	0x40002854,	4,	base=16,	modified
+sfr = "RTC_BK3R",	"Memory",	0x4000285c,	4,	base=16,	modified
+sfr = "RTC_BK4R",	"Memory",	0x40002860,	4,	base=16,	modified
+sfr = "RTC_BK6R",	"Memory",	0x40002868,	4,	base=16,	modified
+sfr = "RTC_BK7R",	"Memory",	0x4000286c,	4,	base=16,	modified
+sfr = "RTC_BK8R",	"Memory",	0x40002870,	4,	base=16,	modified
+sfr = "RTC_BK10R",	"Memory",	0x40002878,	4,	base=16,	modified
+sfr = "RTC_BK12R",	"Memory",	0x40002880,	4,	base=16,	modified
+sfr = "RTC_BK15R",	"Memory",	0x4000288c,	4,	base=16,	modified
+sfr = "RTC_BK17R",	"Memory",	0x40002894,	4,	base=16,	modified
+sfr = "IWDG_PR",	"Memory",	0x40003004,	2,	base=16,	modified
+sfr = "IWDG_RLR",	"Memory",	0x40003008,	2,	base=16,	modified
+sfr = "RNG_DR",	"Memory",	0x50060808,	4,	base=16,	modified
+sfr = "TIM1_PSC",	"Memory",	0x40010028,	4,	base=16,	modified
+sfr = "TIM1_CCR1",	"Memory",	0x40010034,	4,	base=16,	modified
+sfr = "TIM1_CCR4",	"Memory",	0x40010040,	4,	base=16,	modified
+sfr = "TIM8_DMAR",	"Memory",	0x4001044c,	4,	base=16,	modified
+sfr = "TIM2_DIER",	"Memory",	0x4000000c,	4,	base=16,	modified
+sfr = "TIM3_CR1",	"Memory",	0x40000400,	4,	base=16,	modified
+sfr = "TIM4_CCR2",	"Memory",	0x40000838,	2,	base=16,	modified
+sfr = "TIM12_CCMR1",	"Memory",	0x40001818,	4,	base=16,	modified
+sfr = "TIM14_PSC",	"Memory",	0x40002028,	4,	base=16,	modified
+sfr = "CAN2_MCR",	"Memory",	0x40006800,	4,	base=16,	modified
+sfr = "CAN2_TDT1R",	"Memory",	0x40006994,	4,	base=16,	modified
+sfr = "CAN_F5R2",	"Memory",	0x4000666c,	4,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "GPIOE_MODER", "GPIOE_OSPEEDR", "GPIOF_LCKR", "GPIOF_AFRH", "GPIOH_OTYPER", "GPIOH_LCKR", "GPIOI_OTYPER"
+group = "Custom", "DMA1_S2CR", "DMA1_S3M0AR", "DMA1_S4M1AR"
+group = "Custom", "DMA1_S5CR", "DMA1_S5PAR", "DMA1_S7NDTR"
+group = "Custom", "DMA2_S1PAR", "DMA2_S1M0AR", "DMA2_S1M1AR", "DMA2_S1FCR", "DMA2_S2CR", "DMA2_S2NDTR"
+group = "Custom", "DMA2_S2PAR", "DMA2_S2M0AR", "DMA2_S5CR"
+group = "Custom", "DMA2_S5PAR", "DMA2_S7CR", "DMA2_S7M0AR", "DMA2_S7FCR", "RTC_CALIBR"
+group = "Custom", "RTC_ALRMBR", "RTC_CALR", "RTC_ALRMBSSR", "RTC_BK0R"
+group = "Custom", "RTC_BK1R", "RTC_BK3R", "RTC_BK4R", "RTC_BK6R"
+group = "Custom", "RTC_BK7R", "RTC_BK8R", "RTC_BK10R", "RTC_BK12R", "RTC_BK15R", "RTC_BK17R", "IWDG_PR", "IWDG_RLR", "RNG_DR", "TIM1_PSC", "TIM1_CCR1", "TIM1_CCR4"
+group = "Custom", "TIM8_DMAR", "TIM2_DIER", "TIM3_CR1", "TIM4_CCR2", "TIM12_CCMR1", "TIM14_PSC", "CAN2_MCR", "CAN2_TDT1R", "CAN_F5R2"
